@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 def main():
-    st.title("CSVアップロード＆転記アプリ")
+    st.title("メルカリ CSVアップロード＆転記アプリ")
 
     st.write("倉庫革命CSV(warehouse.csv)をアップロード")
     warehouse_file = st.file_uploader("倉庫革命CSVを選択", type="csv")
